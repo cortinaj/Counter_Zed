@@ -29,7 +29,7 @@ module counter(
     //Create Wires
     wire rst;
     wire clk_1Hz;
-    wire [7:0] bin_count, ring_count;
+    wire [7:0] bin_count, ring_count, johnson_count;
     wire [7:0] out_mux;
     
     //Instantiate Modules
@@ -49,11 +49,18 @@ module counter(
                      .pause(sw[2]),
                      .out(ring_count)
                      );
+                     
+    johnson_counter johnson(.clk(clk_1Hz),
+                            .rst(sw[0]),
+                            .dir(sw[1]),
+                            .pause(sw[2]),
+                            .out(johnson_count)
+                            );
     
     mux_16to1 MUX(.sel(sw[6:3]),
                  .in0(bin_count),      
                  .in1(ring_count),     
-                 .in2(8'b0),           
+                 .in2(johnson_count),           
                  .in3(8'b0),           
                  .in4(8'b0),
                  .in5(8'b0),

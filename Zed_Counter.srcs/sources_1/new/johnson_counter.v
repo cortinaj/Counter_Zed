@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 09/05/2025 03:45:07 PM
+// Create Date: 09/06/2025 03:46:52 PM
 // Design Name: 
-// Module Name: ring_counter
+// Module Name: johnson_counter
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ring_counter #(parameter N = 8)(
+module johnson_counter #(parameter N = 8)(
     input clk,
     input rst,
     input dir,
@@ -30,13 +30,13 @@ module ring_counter #(parameter N = 8)(
     
     always @(posedge clk or posedge rst) begin
         if(rst)
-            out <= 8'b0000_0001;
-         else if (!pause) begin
+            out <= 8'b0000_0000;
+        else if (!pause) begin
             if(dir == 0) begin
-                out <= (out << 1) | (out >> N-1);
+                out <= {out[6:0], ~out[7]};
             end else begin
-                out <= (out >> 1) | (out << N-1);
+                out <= {~out[0], out[7:1]};
             end
         end
-    end   
+    end 
 endmodule
