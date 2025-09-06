@@ -68,7 +68,7 @@ module counter(
                  .in0(bin_count),      
                  .in1(ring_count),     
                  .in2(johnson_count),           
-                 .in3(8'b0),           
+                 .in3(gray_count),           
                  .in4(8'b0),
                  .in5(8'b0),
                  .in6(8'b0),
