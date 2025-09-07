@@ -29,7 +29,7 @@ module counter(
     //Create Wires
     wire rst;
     wire clk_1Hz;
-    wire [7:0] bin_count, ring_count, johnson_count, gray_count;
+    wire [7:0] bin_count, ring_count, johnson_count, gray_count, fibonacci_count, bcd_count;
     wire [7:0] out_mux;
     
     //Instantiate Modules
@@ -63,6 +63,19 @@ module counter(
                        .pause(sw[2]),
                        .out(gray_count)
                        );
+    fibonacci_counter fibonacci (.clk(clk_1Hz),
+                                 .rst(sw[0]),
+                                 .dir(sw[1]),
+                                 .pause(sw[2]),
+                                 .out(fibonacci_count)
+                                );
+    bcd_counter bcd (.clk(clk_1Hz),
+                     .rst(sw[0]),
+                     .dir(sw[1]),
+                     .pause(sw[2]),
+                     .out(bcd_count)
+                     );
+      
     
     mux_16to1 MUX(.sel(sw[6:3]),
                  .in0(bin_count),      
