@@ -30,7 +30,7 @@ module fibonacci_counter #(parameter N = 8)(
     
     reg [7:0] prev, curr;
 
-    always @(posedge clk) begin
+    always @(posedge clk or posedge rst) begin
         if (rst) begin
             prev <= 8'b0;     
             curr <= 8'b1;
@@ -38,14 +38,14 @@ module fibonacci_counter #(parameter N = 8)(
         end else if (!pause) begin
             if (dir == 0) begin
                 // Forward Fibonacci
-                out  <= curr;
+                out  <= prev;
                 curr <= prev + curr;
-                prev <= out;
+                prev <= curr;
             end else begin
                 // Reverse Fibonacci
                 out  <= prev;
                 prev <= curr - prev;
-                curr <= out;
+                prev <= out;
             end
         end
     end

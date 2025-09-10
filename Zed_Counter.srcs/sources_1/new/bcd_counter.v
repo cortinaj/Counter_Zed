@@ -30,7 +30,7 @@ module bcd_counter #(parameter N = 8)(
     
     reg [3:0] ones, tens;
 
-    always @(posedge clk) begin
+    always @(posedge clk or posedge rst) begin
         if (rst) begin
             ones <= 4'd0;
             tens <= 4'd0;
