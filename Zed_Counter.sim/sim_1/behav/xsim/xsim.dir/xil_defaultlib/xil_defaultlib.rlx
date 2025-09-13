@@ -1,0 +1,19 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/bcd_counter_tb.v,1757795233,verilog,,,,bcd_counter_tb,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/binary_counter_tb.v,1757794231,verilog,,,,binary_counter_tb,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/fibonacci_counter_tb.v,1757795051,verilog,,,,fibonacci_counter_tb,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/freq_divider_tb.v,1757795415,verilog,,,,freq_divider_tb,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/gray_counter_tb.v,1757794892,verilog,,,,gray_counter_tb,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/ring_counter_tb.v,1757794426,verilog,,,,ring_counter_tb,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/bcd_counter.v,1757483011,verilog,,C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/bcd_counter_tb.v,,bcd_counter,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/binary_up_counter.v,1757104489,verilog,,C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/binary_counter_tb.v,,binary_up_counter,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/fibonacci_counter.v,1757482900,verilog,,C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/fibonacci_counter_tb.v,,fibonacci_counter,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/freq_divider.v,1757104045,verilog,,C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/freq_divider_tb.v,,freq_divider,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/gray_counter.v,1757199660,verilog,,C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/gray_counter_tb.v,,gray_counter,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/johnson_counter.v,1757199028,verilog,,C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/johnson_counter_tb.v,,johnson_counter,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/johnson_counter_tb.v,1757794695,verilog,,,,johnson_counter_tb,,,,,,,,
+C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sources_1/new/ring_counter.v,1757117532,verilog,,C:/Users/JP/Documents/School/ECE524/Counters/Counter_Zed/Counter_Zed/Zed_Counter.srcs/sim_1/new/ring_counter_tb.v,,ring_counter,,,,,,,,
